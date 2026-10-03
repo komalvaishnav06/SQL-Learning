@@ -1,4 +1,4 @@
--- drop database program
+-- writing and saving are sql script
 CREATE DATABASE IF NOT EXISTS program1;
 -- @block
 USE program1;
@@ -14,7 +14,4 @@ CREATE TABLE users(
 );
 
 -- @block
-SELECT * FROM users;
-
--- @block
-DROP DATABASE if EXISTS program1;
+SELECT email,gender FROM users;

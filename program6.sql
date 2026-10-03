@@ -1,4 +1,4 @@
--- drop database program
+-- altering table
 CREATE DATABASE IF NOT EXISTS program1;
 -- @block
 USE program1;
@@ -17,4 +17,6 @@ CREATE TABLE users(
 SELECT * FROM users;
 
 -- @block
-DROP DATABASE if EXISTS program1;
+ALTER TABLE users ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
+-- @block
+SELECT * FROM users;
