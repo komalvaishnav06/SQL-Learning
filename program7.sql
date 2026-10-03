@@ -1,4 +1,5 @@
 USE program1;
+
 -- @block
 SELECT * from users;
 

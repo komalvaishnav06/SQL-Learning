@@ -13,6 +13,6 @@ CREATE TABLE student (
 -- @block
 SELECT * FROM student;
 
--- @block
-INSERT INTO student (std_name, email) 
-VALUES ('Ayush Suthar', 'ayush@example.com');
+-- -- @block
+-- INSERT INTO student (std_name, email) 
+-- VALUES ('Ayush Suthar', 'ayush@example.com');
